@@ -9,7 +9,7 @@ const Sidebar = () => {
   ]);
 
   // State for price slider
-  const [priceRange, setPriceRange] = useState(100);
+ 
 
   // Generic function to handle checkbox changes
   const handleCheckboxChange = (
