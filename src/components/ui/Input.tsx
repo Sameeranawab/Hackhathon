@@ -1,5 +1,4 @@
 import * as React from "react";
-import cn from "classnames";
 
 
 const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
@@ -21,6 +20,3 @@ Input.displayName = "Input";
 
 export { Input };
 
-function classNames(arg0: string, arg1: { active: boolean; }): string | undefined {
-    throw new Error("Function not implemented.");
-}
